@@ -89,7 +89,7 @@ tk.Button(ai_frame, text="Impossible", command=lambda: set_ai_mode("Impossible")
 back_btn_ai = tk.Button(ai_frame, text="Back", command=lambda:[ai_frame.pack_forget(), start_frame.pack(expand=True)], font=("Arial", 14))
 back_btn_ai.grid(row=5,column=1,pady=5) 
 
-# ===== بناء اللعبة =====
+# =====  بناء اللعبة  =====
 def build_game():
     global score_label, match_result_label, timer_label
 

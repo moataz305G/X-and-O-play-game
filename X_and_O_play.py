@@ -11,7 +11,7 @@ computer_score = 0
 
 Control_panel = [""] * 9
 current_player = "X"
-
+#frame1
 frame1 = tk.Frame(root)
 frame1.grid(row=0, column=0, pady=20)
 
@@ -31,7 +31,7 @@ def restart_game():
 
 Restart_Button = tk.Button(frame1, text="Restart", font=("Arial", 18), command=restart_game)
 Restart_Button.grid(row=2, column=0)
-
+#frame2
 frame2 = tk.Frame(root)
 frame2.grid(row=1, column=0)
 
@@ -79,7 +79,7 @@ def button_click(index):
                 btn.config(bg="red")
             return
 
-        # تغيير الدور إلى الكمبيوتر
+        #   تغيير الدور إلى الكمبيوتر
         current_player = "O"
         computer_move()
 

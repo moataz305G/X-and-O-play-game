@@ -64,7 +64,7 @@ pvp_start_btn.pack(pady=10)
 back_btn_pvp = tk.Button(pvp_frame, text="Back", command=lambda:[pvp_frame.pack_forget(), start_frame.pack(expand=True)], font=("Arial", 14))
 back_btn_pvp.pack(pady=5)
 
-# ===== واجهة اختيار مستوى الذكاء الاصطناعي =====
+# =====  واجهة اختيار مستوى الذكاء الاصطناعي  =====
 ai_frame = tk.Frame(root)
 ai_label1 = tk.Label(ai_frame, text="your name: ", font=("Arial", 16))
 ai_label1.grid(row=0,column=0,pady=5)

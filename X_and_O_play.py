@@ -31,7 +31,7 @@ def restart_game():
 
 Restart_Button = tk.Button(frame1, text="Restart", font=("Arial", 18), command=restart_game)
 Restart_Button.grid(row=2, column=0)
-#frame2
+# frame2
 frame2 = tk.Frame(root)
 frame2.grid(row=1, column=0)
 

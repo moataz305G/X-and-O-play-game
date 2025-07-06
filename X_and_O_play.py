@@ -1,5 +1,4 @@
-#import  lirarre
-#import tkinter lirarre
+1
 import tkinter as tk
 import random
 

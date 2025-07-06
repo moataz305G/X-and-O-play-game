@@ -11,7 +11,7 @@ computer_score = 0
 
 Control_panel = [""] * 9
 current_player = "X"
-#frame1
+# frame1
 frame1 = tk.Frame(root)
 frame1.grid(row=0, column=0, pady=20)
 
